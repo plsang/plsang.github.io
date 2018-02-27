@@ -1,0 +1,369 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta name=viewport content=“width=800”>
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+    color: #1772d0;
+    text-decoration:none;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    }
+    .two
+    {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+  </style>
+  <link rel="icon" type="image/jpg" href="figs/watercress.jpg">
+  <title>Sang Phan</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td width="67%" valign="middle">
+        <p align="center">
+          <name>Sang Phan</name>
+        </p>
+        <p>I am a project researcher at <a href="http://www.satoh-lab.nii.ac.jp/">Satoh Lab</a>, <a href="http://www.nii.ac.jp/en/">National Institute of Informatics, Tokyo, Japan</a>, where I work on medical imaging with Prof. <a href="https://researchmap.jp/satoh/">Shin'ichi Satoh</a>. I also have been working on applications of Computer Vision and Natural Language Processing with Prof. <a href="https://researchmap.jp/yusuke/">Yusuke Miyao </a> at <a href="https://mynlp.github.io/en">Miyao Lab.</a>
+        </p>
+        <p>
+          I did my PhD at <a href="https://www.soken.ac.jp/en/">SOKENDAI (The Graduate University for Advanced Studies)</a>, where I was advised by Prof. <a href="https://researchmap.jp/satoh/">Shin'ichi Satoh</a> and <a href="https://researchmap.jp/ledduy/">Duy-Dinh Le</a>, and funded by the <a href="http://www.nii.ac.jp/graduate/en/entrance/course_fees/">NII Scholarship</a>. Prior to that, I did my master's and bachelor's at the <a href="http://web.hcmus.edu.vn/en/">University of Science - Vietnam National University Ho Chi Minh City</a>.
+        </p>
+        <p align=center>
+          <a href="mailto:plsang@nii.ac.jp">Email</a> &nbsp/&nbsp
+          <a href="https://www.dropbox.com/s/8ek49r2yidf1jd0/cv_latest.pdf?dl=0">CV</a> &nbsp/&nbsp
+          <a href="bio.txt">Biography</a> &nbsp/&nbsp
+          <a href="http://dblp2.uni-trier.de/pers/hd/l/Le:Sang_Phan">DBLP</a> &nbsp/&nbsp  
+          <a href="https://scholar.google.com/citations?user=YDMx7IkAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+          <a href="https://www.linkedin.com/in/phanlesang/">LinkedIn</a>
+        </p>
+        </td>
+        <td width="33%">
+        <img src="figs/SF2017.JPG" height="240" width="240">
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td width="100%" valign="middle">
+          <heading>Research</heading>
+          <p>
+          My research focuses on the intersection of computer vision and natural language processing. This research area has been getting a lot of attention from researchers in both fields. There are several exciting applications emerging from this joint research such as video event detection and recounting, image/video description generation, and image/video question answering. 
+          </p>
+        </td>
+      </tr>
+      </table>
+
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+    <tr onmouseout="aperture_stop()" onmouseover="aperture_start()" >
+      <td width="25%">
+        <div class="one">
+        <div class="two" id = 'aperture_image'><img src='figs/cst_framework.png' width="250" style="border-style: none" height="160"></div>
+        <img src='figs/cst.png'  width="250" style="border-style: none" height="160">
+        </div>
+        <script type="text/javascript">
+        function aperture_start() {
+        document.getElementById('aperture_image').style.opacity = "1";
+        }
+        function aperture_stop() {
+        document.getElementById('aperture_image').style.opacity = "0";
+        }
+        aperture_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+	  <a href="https://arxiv.org/abs/1712.09532">
+            <papertitle>Consensus-based Sequence Training for Video Captioning</papertitle>
+	  </a>
+	  <br>
+          <strong>Sang Phan</strong>,
+          <a href="http://homepages.inf.ed.ac.uk/ghenter/">Gustav Eje Henter</a>,
+	  <a href="https://researchmap.jp/yusuke/">Yusuke Miyao</a>, 
+	  <a href="https://researchmap.jp/satoh/">Shin'ichi Satoh</a><br>
+        <em>arXiv Preprint</em>, 2017, <a href="https://github.com/mynlp/cst_captioning">[Code]</a> 
+          
+        <p></p>
+        <p>We propose a Consensus-based Sequence Training (CST) scheme to generate video captions. First, CST performs an RLlike pre-training, but with captions from the training data
+replacing model samples. Second, CST applies REINFORCE for fine-tuning using
+the consensus (average reward) among training captions
+as the baseline estimator. The two stages of CST allow objective mismatch
+and exposure bias to be assessed separately, and together
+establish a new state-of-the-art on the task.
+          </p>
+      </td>
+    </tr>
+		
+  
+      <tr onmouseout="manet_aperture_stop()" onmouseover="manet_aperture_start()" >
+      <td width="25%">
+        <div class="one">
+        <div class="two" id ='manet_aperture_image'><img src='figs/manet_framework.png' width="250" height="160"></div>
+        <img src='figs/manet.png' width="250" height="160">
+        </div>
+        <script type="text/javascript">
+        function manet_aperture_start() {
+        document.getElementById('manet_aperture_image').style.opacity = "1";
+        }
+        function manet_aperture_stop() {
+        document.getElementById('manet_aperture_image').style.opacity = "0";
+        }
+        manet_aperture_stop()
+        </script>
+      </td>
+        <td width="75%" valign="top">
+        <p>
+        <p>
+          <a href="https://dl.acm.org/citation.cfm?doid=3123266.3127898">
+          <papertitle>MANet: A Modal Attention Network for Describing Videos</papertitle>
+          </a>
+          <br>
+          <strong>Sang Phan</strong>, 
+            <a href="https://researchmap.jp/yusuke/">Yusuke Miyao</a>, 
+            <a href="https://researchmap.jp/satoh/">Shin'ichi Satoh</a><br>
+          <em>ACM Multimedia</em>, 2017 (Grand Challenge Paper) -- Honorable Mention Award
+        </p>
+        <p>
+           We propose a Modal Attention Network (MANet) to learn dynamic weighting combinations of multimodal features (audio, image, motion, and text) for video captioning. Our MANet extends the standard encoder-decoder
+network by adapting the attention mechanism to video modalities.
+        </p>    
+        </td>
+      </tr>
+
+        <tr>
+        <td width="25%"><img src="figs/coling2016.png" alt="clean-usnob" width="250" style="border-style: none"></td>
+        <td width="75%" valign="top">
+        <p>
+        <p>
+          <a href="http://www.aclweb.org/anthology/C16-1313">
+          <papertitle>Video Event Detection by Exploiting Word Dependencies from Image Captions</papertitle>
+          </a>
+          <br>
+          <strong>Sang Phan</strong>, 
+            <a href="https://researchmap.jp/yusuke/">Yusuke Miyao</a>, 
+            <a href="https://researchmap.jp/ledduy/">Duy-Dinh Le</a>, 
+            <a href="https://researchmap.jp/satoh/">Shin'ichi Satoh</a><br>
+          <em>COLING</em>, 2016 (Oral)
+        </p>
+        <p>We propose a new approach to obtain the relationship between concepts by exploiting the syntactic dependencies between words in the image captions.</p>
+        </td>
+      </tr>
+
+              <tr>
+        <td width="25%"><img src="figs/coling2016_natsuda.png" alt="clean-usnob" width="250" height="160"></td>
+        <td width="75%" valign="top">
+        <p>
+        <p>
+          <a href="http://aclweb.org/anthology/C16-1005">
+          <papertitle>Generating Video Description using Sequence-to-sequence Model with Temporal Attention</papertitle>
+          </a>
+          <br>
+            <a href="https://scholar.google.co.jp/citations?hl=en&user=XfapHFwAAAAJ/">Natsuda Laokulrat</a>, 
+              <strong>Sang Phan</strong>, 
+            <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/~nishida/">Noriki Nishida</a>, 
+            <a href="https://nlper.com/">Raphael Shu</a>,
+            <a href="http://yoehara.com/">Yo Ehara</a>, 
+            <a href="http://www.chokkan.org">Naoaki Okazaki</a>,
+            <a href="https://researchmap.jp/yusuke/">Yusuke Miyao</a>, 
+            <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/~nakayama/index_en.html">Hideki Nakayama</a> <br> 
+          <em>COLING</em>, 2016 (Oral)
+        </p>
+        <p>We combine sequence to sequence approach with temporal attention mechanism for video captioning.</p>
+        </td>
+      </tr>
+      
+        <tr>
+        <td width="25%"><img src="figs/mm2015.png" alt="clean-usnob" width="250" height="160"></td>
+        <td width="75%" valign="top">
+        <p>
+        <p>
+          <a href="https://dl.acm.org/citation.cfm?id=2806330">
+          <papertitle>Multimedia Event Detection Using Event-Driven Multiple Instance Learning</papertitle>
+          </a>
+          <br>
+          <strong>Sang Phan</strong>, 
+            <a href="https://researchmap.jp/ledduy/">Duy-Dinh Le</a>, 
+            <a href="https://researchmap.jp/satoh/">Shin'ichi Satoh</a><br>
+          <em>ACM Multimedia</em>, 2015 (Poster)
+        </p>
+        <p>We propose to use Event-driven Multiple Instance Learning (EDMIL) to learn the key evidences for event detection. The key evidences are obtained by matching its detected concepts against the evidential description of that event.</p>
+        </td>
+      </tr>
+      
+      <tr>
+        <td width="25%"><img src="figs/sum_max.png" alt="clean-usnob" width="250" height="160"></td>
+        <td width="75%" valign="top">
+        <p>
+        <p>
+          <a href="http://ieeexplore.ieee.org/document/7025204">
+          <papertitle>Sum-max Video Pooling for Complex Event Recognition</papertitle>
+          </a>
+          <br>
+          <strong>Sang Phan</strong>, 
+            <a href="https://researchmap.jp/ledduy/">Duy-Dinh Le</a>, 
+            <a href="https://researchmap.jp/satoh/">Shin'ichi Satoh</a><br>
+          <em>ICIP</em>, 2014 (Poster)
+        </p>
+        <p>We leverage the layered structure of video to propose a new pooling method, named sum-max video pooling, to combine the advantages of sum pooling and max pooling for video event detection.</p>    
+        </td>
+      </tr>
+      
+      <tr>
+        <td width="25%"><img src="figs/pcm2012.jpg" alt="clean-usnob" width="250" height="160"></td>
+        <td width="75%" valign="top">
+        <p>
+        <p>
+          <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-34778-8_4.pdf">
+          <papertitle>Multimedia Event Detection Using Segment-Based Approach for Motion Feature</papertitle>
+          </a>
+          <br>
+          <strong>Sang Phan</strong>, 
+            <a href="https://scholar.google.com/citations?user=I8bNZakAAAAJ&hl=en">Thanh Duc Ngo</a>, 
+            <a href="https://scholar.google.com/citations?user=TVVx688AAAAJ&hl=en">Vu Lam</a>, 
+            <a href="#">Son Tran</a>, 
+            <a href="https://researchmap.jp/ledduy/">Duy-Dinh Le</a>, 
+            <a href="https://researchmap.jp/satoh/">Shin'ichi Satoh</a><br>
+          <em>PCM</em>, 2012 (Oral), <a href="https://link.springer.com/article/10.1007/s11265-013-0825-4">[Journal version]</a>
+        </p>
+        <p>We propose to use a segment-based approach for video representation. Basically,
+original videos are divided into segments for feature
+extraction and classification, while still keeping the evaluation
+at the video level. Experimental results on the
+TRECVID Multimedia Event Detection 2010 dataset proved the
+effectiveness of our approach.
+</p>    
+        </td>
+      </tr>
+      
+      <!--
+      </table>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <heading>Conference</heading>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellpadding="20">
+      <tr>
+        <td width="25%"><img src="prl.jpg" alt="prl" width="160" height="160"></td>
+        <td width="75%" valign="top">
+        <p>
+          <a href="https://drive.google.com/file/d/13rVuJpcytRdLYCnKpq46g7B7IzSrPQ2P/view?usp=sharing">
+          <papertitle>Parallelizing Reinforcement Learning</papertitle>
+          </a>
+          <br>
+          <strong>Jonathan T. Barron</strong>, <a href="http://www.eecs.berkeley.edu/~dsg/">Dave Golland</a>, <a href="http://www.cs.berkeley.edu/~nickjhay/">Nicholas J. Hay</a>, 2009
+        <p><br>
+          Markov Decision Problems which lie in a low-dimensional latent space can be decomposed, allowing modified RL algorithms to run orders of magnitude faster in parallel.
+        </p>
+        </p>
+        </td>
+      </tr>
+      </table>
+      -->
+      
+      <!--
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <heading>Teaching</heading>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellpadding="20">
+      <tr>
+        <td width="25%"><img src="pacman.jpg" alt="pacman" width="160" height="160"></td>
+        <td width="75%" valign="center">
+        <p>
+          <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">
+          <papertitle>CS188 - Fall 2010 (GSI)</papertitle>
+          </a>
+          <br><br>
+          <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">
+          <papertitle>CS188 - Spring 2011 (GSI)</papertitle>
+          </a>
+          <br>
+        </p>
+        </td>
+      </tr>
+      </table>
+      -->
+      
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+      <tr>
+        <td>
+        <br>
+        <p align="right">
+          <font size="6">
+              <a href="https://jonbarron.info"><font size="1">Kudos to Jon</font></a>
+          <!-- http://www.cs.princeton.edu/~namana/ http://people.csail.mit.edu/janner/ http://www.sjoerdvansteenkiste.com/ http://joaoloula.github.io/ https://bhairavmehta95.github.io/ http://www2.informatik.uni-freiburg.de/~palmieri/ https://psuriana.github.io/ http://home.iitb.ac.in/~devangthakkar/ http://yushi2.web.engr.illinois.edu/ http://ruthcfong.github.io/ https://shraman-rc.github.io/ http://rahulgarg.com/ http://www.cs.cmu.edu/~inigam/ http://djstrouse.com/-->
+	    </font>
+        </p>
+        </td>
+      </tr>
+      </table>
+      <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+      </script> <script type="text/javascript">
+      try {
+          var pageTracker = _gat._getTracker("UA-7580334-1");
+          pageTracker._trackPageview();
+          } catch(err) {}
+      </script>
+    </td>
+    </tr>
+  </table>
+  </body>
+</html>
